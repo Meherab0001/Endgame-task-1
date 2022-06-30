@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import Todo from './Components/Pages/Todo';
 import Task from './Components/Pages/Task';
 import Calendar from './Components/Pages/Calendar';
+import Footer from './Components/Pages/Footer';
 function App() {
   return (
     <div >
@@ -16,6 +17,7 @@ function App() {
           <Route path='/calendar' element={<Calendar></Calendar>}></Route>
           
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
